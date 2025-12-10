@@ -1,0 +1,11 @@
+{
+    "time_limit": 2.0,
+    "memory_limit": 256,
+    "difficulty": "Div1-C",
+    "tags": [
+        "data structures",
+        "greedy",
+        "bitmasks",
+        "constructive"
+    ]
+}
