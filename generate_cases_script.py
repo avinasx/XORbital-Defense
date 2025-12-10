@@ -66,14 +66,14 @@ def generate_case(filename, type_idx):
 
 def solve_case(in_file, out_file):
     # Run solution.py
-    cmd = f"python3 cosmic_shields/solution.py < {in_file} > {out_file}"
+    cmd = f"python3 solution.py < {in_file} > {out_file}"
     subprocess.run(cmd, shell=True, check=True)
 
 def main():
-    os.makedirs("cosmic_shields/test_cases", exist_ok=True)
+    os.makedirs("test_cases", exist_ok=True)
     for i in range(1, 6):
-        in_path = f"cosmic_shields/test_cases/{i}.in"
-        out_path = f"cosmic_shields/test_cases/{i}.out"
+        in_path = f"test_cases/{i}.in"
+        out_path = f"test_cases/{i}.out"
         print(f"Generating {in_path}...")
         generate_case(in_path, i)
         print(f"Solving to {out_path}...")

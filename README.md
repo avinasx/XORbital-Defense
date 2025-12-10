@@ -18,7 +18,7 @@ A Div1-C / Div2-E level problem involving Segment Trees, Linear Basis, and Coord
    ```bash
    python3 generator.py
    # Or use the specific script:
-   python3 ../generate_cases_script.py (if available)
+   python3 generate_cases_script.py (if available)
    ```
 2. Run optimal solution:
    ```bash
